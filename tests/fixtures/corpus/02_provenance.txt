@@ -1,0 +1,2 @@
+Every approved document keeps its source, permission, content hash, parser version, and transformation history for later inspection.
+

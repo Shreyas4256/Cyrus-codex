@@ -1,0 +1,2 @@
+Evaluation data remains outside training. Fixed seeds and immutable test records make regressions easier to detect and explain.
+

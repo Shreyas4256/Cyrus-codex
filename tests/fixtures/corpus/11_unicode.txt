@@ -1,0 +1,2 @@
+Unicode must survive exactly: café, naïve, Ελληνικά, 日本語, मराठी, हिन्दी, and the rocket emoji 🚀 all round-trip through bytes.
+

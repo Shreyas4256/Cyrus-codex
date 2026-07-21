@@ -1,0 +1,2 @@
+Cyrus runs on the owner's computer. Runtime commands do not need a hosted model, an API key, or an internet connection.
+

@@ -1,0 +1,2 @@
+Memory and neural weights are separate systems. A local document can become searchable without immediately changing model parameters.
+

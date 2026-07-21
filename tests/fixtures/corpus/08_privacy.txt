@@ -1,0 +1,2 @@
+Private conversations, personal memories, datasets, and checkpoints stay outside version control unless the owner explicitly exports them.
+

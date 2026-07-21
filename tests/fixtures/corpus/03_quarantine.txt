@@ -1,0 +1,2 @@
+New knowledge first enters quarantine. The owner reviews warnings before allowing that knowledge into an approved dataset snapshot.
+
