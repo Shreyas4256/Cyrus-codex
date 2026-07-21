@@ -1,0 +1,2 @@
+The smoke experiment starts with random weights and a tiny budget. Its purpose is to reveal software errors, not to claim intelligence.
+

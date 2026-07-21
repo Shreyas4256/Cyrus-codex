@@ -1,0 +1,52 @@
+profile: smoke
+
+runtime:
+  offline: true
+  seed: 4256
+  max_workers: 2
+  max_ram_gb: 4.0
+  max_disk_gb: 8.0
+  max_training_minutes: 10
+  checkpoint_retention: 3
+
+data:
+  max_file_bytes: 1048576
+  train_ratio: 0.8
+  validation_ratio: 0.1
+  test_ratio: 0.1
+  split_seed: cyrus-smoke-v1
+
+tokenizer:
+  vocab_size: 320
+  min_frequency: 2
+  special_tokens:
+    - <|begin|>
+    - <|end|>
+    - <|pad|>
+    - <|system|>
+    - <|user|>
+    - <|assistant|>
+    - <|memory|>
+    - <|document|>
+
+model:
+  context_length: 256
+  d_model: 192
+  n_layers: 6
+  n_heads: 6
+  n_kv_heads: 6
+  dropout: 0.0
+  rope_theta: 10000.0
+
+training:
+  batch_size: 2
+  sequence_length: 64
+  gradient_accumulation_steps: 1
+  max_steps: 100
+  learning_rate: 0.001
+  weight_decay: 0.1
+  warmup_steps: 5
+  gradient_clip: 1.0
+  eval_interval: 10
+  eval_batches: 4
+  checkpoint_interval: 25

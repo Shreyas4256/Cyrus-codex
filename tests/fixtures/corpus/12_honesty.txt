@@ -1,0 +1,2 @@
+Measured loss, speed, memory use, and test outcomes are reported honestly. A small research model is never described as a frontier assistant.
+

@@ -1,0 +1,5 @@
+# Install from the official CPU index in a CPU-only Codespace:
+#   python -m pip install -r requirements-ml.lock \
+#     --index-url https://download.pytorch.org/whl/cpu
+torch==2.13.0
+

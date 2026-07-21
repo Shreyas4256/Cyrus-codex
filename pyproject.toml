@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=75,<81"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cyrus-local"
+version = "0.1.0"
+description = "A fully local language-model research stack built from random initialization"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "numpy==2.3.5",
+  "PyYAML==6.0.3",
+]
+
+[project.scripts]
+cyrus = "cyrus.cli.main:main"
+
+[project.optional-dependencies]
+ml = ["torch==2.13.0"]
+
+[tool.setuptools.packages.find]
+include = ["cyrus*"]

@@ -1,0 +1,2 @@
+An atomic checkpoint protects the last known-good state. Interrupted work must resume without silently corrupting model artifacts.
+

@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+upload/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local secrets and settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Cyrus private/runtime data: retain directory markers only
+data/inbox/*
+!data/inbox/.gitkeep
+data/quarantine/*
+!data/quarantine/.gitkeep
+data/approved/*
+!data/approved/.gitkeep
+data/manifests/*
+!data/manifests/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/eval/*
+!data/eval/.gitkeep
+
+# Model artifacts and local reports
+checkpoints/candidates/*
+!checkpoints/candidates/.gitkeep
+checkpoints/stable/*
+!checkpoints/stable/.gitkeep
+reports/*
+!reports/.gitkeep
+artifacts/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Local memory and audit state
+*.sqlite
+*.sqlite3
+*.db
+audit.jsonl
